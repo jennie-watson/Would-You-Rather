@@ -2,9 +2,11 @@ import React from 'react'
 import { mount } from 'enzyme'
 
 import App from '../client/components/App'
+import Header from '../client/components/Header'
 
-test('<App />', () => {
-  const expected = 'React development has begun!'
+test('<App /> contains <Header />', () => {
+  const expected = true
   const wrapper = mount(<App />)
-  expect(wrapper.text()).toMatch(expected)
+  const actual = wrapper.containsMatchingElement(<Header />)
+  expect(actual).toBe(expected)
 })
