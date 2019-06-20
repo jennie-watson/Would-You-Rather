@@ -1,7 +1,7 @@
 import React from 'react'
 import Card from './Card'
 
-import data from '../../data'
+import data from '../../data/wur'
 
 class Board extends React.Component {
   getCards () {
@@ -9,6 +9,7 @@ class Board extends React.Component {
   }
 
   render () {
+    console.log(data)
     return (
       <>
       <div className="leftcontainer">
