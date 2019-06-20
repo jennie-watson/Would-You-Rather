@@ -1,7 +1,13 @@
 import React from 'react'
 import Card from './Card'
 
+import data from '../../data'
+
 class Board extends React.Component {
+  getCards () {
+
+  }
+
   render () {
     return (
       <>
