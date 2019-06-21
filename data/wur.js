@@ -69,7 +69,7 @@ const cards = [
   },
   {
     id: 18,
-    description: "Sleep in PJ's made from skin-tight leather"
+    description: "Sleep in PJ's made from skin- tight leather"
   },
   {
     id: 19,
@@ -125,7 +125,7 @@ const cards = [
   },
   {
     id: 32,
-    description: "Be the Cambide's live-in child-minder"
+    description: "Be the Cambide's live -in child - minder"
   }, {
     id: 33,
     description: 'Watch only extremely scary horror movies throughout your life'
@@ -197,9 +197,86 @@ const cards = [
   {
     id: 50,
     description: 'Have tattoos that appear all over your body depicting what you idyesterday'
-  }, {
+  },
+  {
     id: 51,
     description: 'Not being taken seriously at all'
+  },
+
+  {
+    id: 52,
+    description: 'Be covered in scales'
+  },
+  {
+    id: 53,
+    description: 'Have snakes for hair'
+  },
+  {
+    id: 54, description: 'Have inside out skin'
+  },
+  {
+    id: 55, description: 'Never be able to eat'
+  },
+  {
+    id: 56, description: 'Be able to eat tonnes but never be able to go to the toilet'
+  },
+  {
+    id: 57, description: 'Always have to sleep on a pile of Lego'
+  },
+  {
+    id: 58, description: 'Always have a slow internet connection'
+  },
+  {
+    id: 59, description: 'Always miss the bus by 10 seconds'
+  },
+  {
+    id: 60, description: 'Always have to eat cold food'
+
+  },
+  {
+    id: 61, description: 'ave tastebuds on your butthole'
+  },
+  {
+    id: 62, description: 'Always be itchy'
+  },
+  {
+    id: 63, description: 'Always be sticky'
+  },
+  {
+    id: 64, description: 'Eat a potato and feel it’s pain'
+  },
+  {
+    id: 65, description: 'Now how you’re going to die'
+  },
+  {
+    id: 66, description: 'Listen to baby shark on repeat for the rest of your life'
+  },
+  {
+    id: 67, description: 'Fight a gorilla in the jungle'
+  },
+  {
+    id: 68, description: 'Fight a shark in the sea'
+  },
+  {
+    id: 69, description: 'Shave off your eyebrows'
+  },
+  {
+    id: 70, description: 'Only ever have 2% battery on your phone'
+  },
+  {
+    id: 71, description: 'lways have wet socks'
+  },
+  {
+    id: 72, description: 'Only be able to shout'
+  },
+  {
+    id: 73, description: 'Never be able to open your mouth'
+  },
+  {
+    id: 74, description: 'Never be able to see your family again'
+  },
+  {
+    id: 75, description: 'Marry Donald Trump'
   }
 ]
 
