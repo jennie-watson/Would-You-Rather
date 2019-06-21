@@ -46,7 +46,7 @@ class Board extends React.Component {
   }
 
   render () {
-    return (  
+    return (
       <>
         <div className="container">
           <div className="leftcontainer">

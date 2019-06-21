@@ -1,279 +1,279 @@
 const cards = [
   {
     id: 1,
-    description: 'Go on a date with a mime artist'
+    description: 'Go on a date with a mime artist.'
   },
   {
     id: 2,
-    description: 'Sing everything you say out loud'
+    description: 'Sing everything you say.'
   },
   {
     id: 3,
-    description: 'Never be able to open your mouth'
+    description: 'Never be able to open your mouth.'
   },
   {
     id: 4,
-    description: 'Be in an outdoors jacuzzi in -40 weather'
+    description: 'Be in an outdoors jacuzzi in -40 weather.'
   },
   {
     id: 5,
-    description: 'Poop out 1 shruiken (ninja blade)'
+    description: 'Poop out a ninja blade.'
   },
   {
     id: 6,
-    description: 'To have the power of whatever you touch explode'
+    description: 'Have the power to explode anything you touch.'
   },
   {
     id: 7,
-    description: 'Never be able to close your eyes'
+    description: 'Never be able to close your eyes.'
   },
   {
     id: 8,
-    description: 'Sit in first class on a long-haul flight next to the smelliest person on the planet'
+    description: 'Sit in first class on a long-haul flight next to the smelliest person on the planet.'
   },
   {
     id: 9,
-    description: 'Live in a freezing cold place for the rest of your life'
+    description: 'Live in Antarctica for the rest of your life.'
   },
   {
     id: 10,
-    description: 'Do the macarena when someone says your name'
+    description: 'Do the macarena when someone says your name.'
   },
   {
     id: 11,
-    description: 'Marry your cousin'
+    description: 'Marry your cousin.'
   },
   {
     id: 12,
-    description: 'Live rent free in a flat next to Māngere Wastewater Treatment Plant'
+    description: 'Live rent free in a flat next to Māngere Wastewater Treatment Plant.'
   },
   {
     id: 13,
-    description: 'Have out of control body hair'
+    description: 'Have out of control body hair.'
   },
   {
     id: 14,
-    description: 'Rob a liquor store with a bagel'
+    description: 'Rob a liquor store with a bagel.'
   },
   {
     id: 15,
-    description: 'Have bark for skin'
+    description: 'Have bark for skin.'
   },
   {
     id: 16,
-    description: 'Go on a date with Dua Lipa'
+    description: 'Go on a date with Dua Lipa.'
   },
   {
     id: 17,
-    description: 'Compelled to give wedgies to anyone wearing a green shirt'
+    description: 'Give a wedgie to anyone wearing a green shirt.'
   },
   {
     id: 18,
-    description: "Sleep in PJ's made from skin- tight leather"
+    description: "Sleep in PJ's made from skin-tight leather."
   },
   {
     id: 19,
-    description: 'Talk only in shouts'
+    description: 'Shout everything you say.'
   },
   {
     id: 20,
-    description: 'Spend a weekend in Chernobyl'
+    description: 'Spend a weekend in Chernobyl.'
   },
   {
     id: 21,
-    description: 'Poop out 400,000 of mayonnaise'
+    description: 'Poop out 400,000 litres of mayonnaise.'
   },
   {
     id: 22,
-    description: 'Having swords for hands, laser eyes, teleport, and mouth is sewn shut'
+    description: 'Have swords for hands.'
   },
   {
     id: 23,
-    description: 'Make out with your sibling'
+    description: 'Make out with your sibling.'
   },
   {
     id: 24,
-    description: "Be married to the world's wealthiest octogenarian with no prenuptial agreement"
+    description: "Marry the world's richest 80 year old with no prenup."
   },
   {
     id: 25,
-    description: 'Lick the drain of your own shower for 5 seconds'
+    description: 'Lick the drain of your own shower for 5 seconds.'
   },
   {
     id: 26,
-    description: 'Speak in reverse sentences and spelling'
+    description: 'Speak in reverse sentences.'
   },
   {
     id: 27,
-    description: 'Having feet for hands'
+    description: 'Have feet for hands.'
   },
   {
     id: 28,
-    description: "Be a fly on Kanye's bedroom wall"
+    description: "Be a fly on Kanye's bedroom wall."
   },
   {
     id: 29,
-    description: 'Live in a really boiling hot place for the rest of your life'
+    description: 'Live on the sun.'
   },
   {
     id: 30,
-    description: "Take a profession that you don't enjoy doing, and completely suck at"
+    description: 'Have sausages for fingers.'
   },
   {
     id: 31,
-    description: 'Have a strong, pungent body odour'
+    description: 'Have a strong, pungent body odour.'
   },
   {
     id: 32,
-    description: "Be the Cambide's live -in child - minder"
+    description: 'Be the royal nanny.'
   }, {
     id: 33,
-    description: 'Watch only extremely scary horror movies throughout your life'
+    description: 'Only ever watch horror movies again.'
   },
   {
     id: 34,
-    description: 'Be unable to use social media'
+    description: 'Be unable to use social media.'
   },
   {
     id: 35,
-    description: 'Wear short shorts as the only piece of legwear in winter'
+    description: 'Wear short shorts as the only piece of legwear in winter.'
   },
   {
     id: 36,
-    description: 'Be flipped by Graham Norton'
+    description: 'Be flipped in the red chair by Graham Norton.'
   },
   {
     id: 37,
-    description: 'Be compelled to high five to everyone you meet'
+    description: 'Be compelled to slap to everyone you meet.'
   },
   {
     id: 38,
-    description: 'Be unable to use search engines'
+    description: 'Never use Google again.'
   },
   {
     id: 39,
-    description: 'Smell bad forever from a 5km radius'
+    description: 'Smell so bad people can smell you a kilometre away.'
   },
   {
     id: 40,
-    description: "Get 9 weeks of training by Jaqen H'ghar"
+    description: "Get 9 weeks of training by Jaqen H'ghar."
   },
   {
     id: 41,
-    description: 'Have skin that changes colour based on your emotions'
+    description: 'Have skin that changes colour based on your emotions.'
   },
   {
     id: 42,
-    description: 'Eat pineapple in your pizza when you hate the very idea of it'
+    description: 'Put pineapple on your pizza.'
   },
   {
     id: 43,
-    description: 'Lick a public toilet seat for 5 seconds'
+    description: 'Lick a public toilet seat for 5 seconds.'
   },
   {
     id: 44,
-    description: 'Have no toenails'
+    description: 'Have no toenails.'
   },
   {
     id: 45,
-    description: 'Have to read alout every word you read'
+    description: 'Have to always read aloud.'
   },
   {
     id: 46,
-    description: "Fight Thanos by shrinking down as Ant-Man, go up Thanos' head, then regrow to gigantic size"
+    description: "Be Ant-Man and fly up Thanos' bum."
   },
   {
     id: 47,
-    description: 'Have no fingernails'
+    description: 'Have no fingernails.'
   },
   {
     id: 48,
-    description: 'Have to burp after every kiss'
+    description: 'Have to burp after every kiss.'
   },
   {
     id: 49,
-    description: 'Have to fart loudly every time you have a serious conversation'
+    description: 'Have to fart loudly every time you have a serious conversation.'
   },
   {
     id: 50,
-    description: 'Have tattoos that appear all over your body depicting what you idyesterday'
+    description: 'Have tattoos that appear all over your body depicting your dreams.'
   },
   {
     id: 51,
-    description: 'Not being taken seriously at all'
+    description: 'Only wear lime green for the rest of your life.'
   },
 
   {
     id: 52,
-    description: 'Be covered in scales'
+    description: 'Be covered in scales.'
   },
   {
     id: 53,
-    description: 'Have snakes for hair'
+    description: 'Have snakes for hair.'
   },
   {
-    id: 54, description: 'Have inside out skin'
+    id: 54, description: 'Have inside out skin.'
   },
   {
-    id: 55, description: 'Never be able to eat'
+    id: 55, description: 'Never be able to eat.'
   },
   {
-    id: 56, description: 'Be able to eat tonnes but never be able to go to the toilet'
+    id: 56, description: 'Be able to eat tonnes but never be able to go to the toilet.'
   },
   {
-    id: 57, description: 'Always have to sleep on a pile of Lego'
+    id: 57, description: 'Always have to sleep on a pile of Lego.'
   },
   {
-    id: 58, description: 'Always have a slow internet connection'
+    id: 58, description: 'Always have a slow internet connection.'
   },
   {
-    id: 59, description: 'Always miss the bus by 10 seconds'
+    id: 59, description: 'Always miss the bus by 10 seconds.'
   },
   {
-    id: 60, description: 'Always have to eat cold food'
+    id: 60, description: 'Always have to eat cold food.'
   },
   {
-    id: 61, description: 'Have tastebuds on your butthole'
+    id: 61, description: 'Have tastebuds on your butthole.'
   },
   {
-    id: 62, description: 'Always be itchy'
+    id: 62, description: 'Always be itchy.'
   },
   {
-    id: 63, description: 'Always be sticky'
+    id: 63, description: 'Always be sticky.'
   },
   {
-    id: 64, description: 'Eat a potato and feel it’s pain'
+    id: 64, description: 'Eat a potato and feel it’s pain.'
   },
   {
-    id: 65, description: 'Now how you’re going to die'
+    id: 65, description: 'Know how you’re going to die.'
   },
   {
-    id: 66, description: 'Listen to baby shark on repeat for the rest of your life'
+    id: 66, description: 'Listen to baby shark on repeat for the rest of your life.'
   },
   {
-    id: 67, description: 'Fight a gorilla in the jungle'
+    id: 67, description: 'Fight a gorilla in the jungle.'
   },
   {
-    id: 68, description: 'Fight a shark in the sea'
+    id: 68, description: 'Fight a shark in the sea.'
   },
   {
-    id: 69, description: 'Shave off your eyebrows'
+    id: 69, description: 'Shave off your eyebrows.'
   },
   {
-    id: 70, description: 'Only ever have 2% battery on your phone'
+    id: 70, description: 'Only ever have 2% battery on your phone.'
   },
   {
-    id: 71, description: 'Always have wet socks'
+    id: 71, description: 'Always have wet socks.'
   },
   {
-    id: 72, description: 'Never be able to see your family again'
+    id: 72, description: 'Never be able to see your family again.'
   },
   {
-    id: 73, description: 'Marry Donald Trump'
+    id: 73, description: 'Marry Donald Trump.'
   },
   {
     id: 74,
-    description: 'To have the power of whatever you touch turn into a flock of pigeons that have tiny bladders '
+    description: 'Always be chased by an angry flock of pigeons.'
   }
 ]
 
