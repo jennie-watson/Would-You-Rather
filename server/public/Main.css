@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(53, 52, 52);
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.container {
+  display: flex;
+  position: relative;
+}
+
+h1 {
+  font-family: 'Patua One', cursive;
+  font-size: 130px;
+  font-weight: 330;
+  text-align: center;
+  color: white;
+  margin:30px;
+}
+
+h2 {
+  font-family: 'Patua One', cursive;
+  font-size: 60px;
+  font-weight: 330;
+  color: white;
+  text-align: center
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
+.leftcontainer {
+  height: 600px;
+  background-color: orange;
+  flex-grow: 8;
+}
+
+.rightcontainer {
+  height: 600px;
+  background-color: purple;
+  flex-grow: 8;
+}
+
+.or {
+  background-color: rgb(53, 52, 52);
+  width: 100px;
+  position: absolute;
+  top: 200px;
+  left: 688px;
+
+}
+
+.space {
+  flex-grow: 0.2
+}

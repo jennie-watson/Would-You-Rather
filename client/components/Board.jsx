@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from './Card'
+// import Card from './Card'
 
 import data from '../../data/wur'
 
@@ -30,18 +30,20 @@ class Board extends React.Component {
   render () {
     return (
       <>
-      <div className="leftcontainer">
-        <Card />
-      </div>
-      <div>
-        <p>or:</p>
-      </div>
-      <div className="rightcontainer">
-        <Card />
-      </div>
+        <div className="container">
+          <div className="leftcontainer">
+            <p>left</p>
+            {/* <Card /> */}
+          </div>
+          <h2 className="or">OR</h2>
+          <div className="space"></div>
+          <div className="rightcontainer">
+            {/* <Card /> */}
+            <p>right</p>
+          </div>
+        </div>
       </>
     )
   }
 }
-
 export default Board
