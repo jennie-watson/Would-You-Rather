@@ -51,7 +51,7 @@ h2 {
 }
 
 .space {
-  flex-grow: 1.8
+  flex-grow: 2
 }
 
 .card {
@@ -76,5 +76,8 @@ h2 {
 .cardtext {
  display: inline-block;
  vertical-align: middle;
- line-height: normal;
+ line-height: 60px;
+ padding-left: 40px;
+ padding-right: 40px;
+ padding-top: 40px;
 }
