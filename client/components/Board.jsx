@@ -1,5 +1,5 @@
 import React from 'react'
-// import Card from './Card'
+import Card from './Card'
 
 import data from '../../data/wur'
 
@@ -31,10 +31,14 @@ class Board extends React.Component {
     return (  
       <>
         <div className="container">
-          <div className="leftcontainer"></div>
+          <div className="leftcontainer">
+            <Card card={ this.state.primaryCard }/>
+          </div>
           <h2 className="or">OR</h2>
           <div className="space"></div>
-          <div className="rightcontainer"></div>
+          <div className="rightcontainer">
+            <Card card={ this.state.secondaryCard }/>
+          </div>
         </div>
       </>
     )
