@@ -21,7 +21,7 @@ const cards = [
   },
   {
     id: 6,
-    description: 'Have the power of whatever you touch explodes ior a flock of pigeons that have tiny bladders '
+    description: 'To have the power of whatever you touch explode'
   },
   {
     id: 7,
@@ -144,7 +144,7 @@ const cards = [
   },
   {
     id: 37,
-    description: 'Be compelled to high fives to everyone you meet'
+    description: 'Be compelled to high five to everyone you meet'
   },
   {
     id: 38,
@@ -164,7 +164,7 @@ const cards = [
   },
   {
     id: 42,
-    description: 'Eat pineapple in your pizza when you hate the veryida of it'
+    description: 'Eat pineapple in your pizza when you hate the very idea of it'
   },
   {
     id: 43,
@@ -180,7 +180,7 @@ const cards = [
   },
   {
     id: 46,
-    description: "Fight Thanos by shrinking down as Ant-Man, go up Thano's head, then regrow to gigantic size"
+    description: "Fight Thanos by shrinking down as Ant-Man, go up Thanos' head, then regrow to gigantic size"
   },
   {
     id: 47,
@@ -231,10 +231,9 @@ const cards = [
   },
   {
     id: 60, description: 'Always have to eat cold food'
-
   },
   {
-    id: 61, description: 'ave tastebuds on your butthole'
+    id: 61, description: 'Have tastebuds on your butthole'
   },
   {
     id: 62, description: 'Always be itchy'
@@ -264,19 +263,17 @@ const cards = [
     id: 70, description: 'Only ever have 2% battery on your phone'
   },
   {
-    id: 71, description: 'lways have wet socks'
+    id: 71, description: 'Always have wet socks'
   },
   {
-    id: 72, description: 'Only be able to shout'
+    id: 72, description: 'Never be able to see your family again'
   },
   {
-    id: 73, description: 'Never be able to open your mouth'
+    id: 73, description: 'Marry Donald Trump'
   },
   {
-    id: 74, description: 'Never be able to see your family again'
-  },
-  {
-    id: 75, description: 'Marry Donald Trump'
+    id: 74,
+    description: 'To have the power of whatever you touch turn into a flock of pigeons that have tiny bladders '
   }
 ]
 
