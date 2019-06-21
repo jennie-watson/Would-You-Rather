@@ -50,12 +50,12 @@ class Board extends React.Component {
       <>
         <div className="container">
           <div className="leftcontainer">
-            <Card card={ this.state.primaryCard }/>
+            <Card onClick={this.handlePrimaryCardClick} card={ this.state.primaryCard }/>
           </div>
           <h2 className="or">OR</h2>
           <div className="space"></div>
           <div className="rightcontainer">
-            <Card card={ this.state.secondaryCard }/>
+            <Card onClick={this.handleSecondaryCardClick} card={ this.state.secondaryCard }/>
           </div>
         </div>
       </>
