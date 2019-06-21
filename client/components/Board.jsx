@@ -28,19 +28,13 @@ class Board extends React.Component {
   }
 
   render () {
-    return (
+    return (  
       <>
         <div className="container">
-          <div className="leftcontainer">
-            <p>left</p>
-            {/* <Card /> */}
-          </div>
+          <div className="leftcontainer"></div>
           <h2 className="or">OR</h2>
           <div className="space"></div>
-          <div className="rightcontainer">
-            {/* <Card /> */}
-            <p>right</p>
-          </div>
+          <div className="rightcontainer"></div>
         </div>
       </>
     )
