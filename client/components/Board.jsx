@@ -27,16 +27,6 @@ class Board extends React.Component {
     return secondaryCard[0]
   }
 
-  // getCards () {
-  //   const cards = []
-  //   for (let i = 0; cards.length < 2; i++) {
-  //     const cardId = this.getRandomCard()
-  //     if (!cards.includes(cardId)) {
-  //       cards.push(cardId)
-  //     }
-  //   }
-  // }
-
   render () {
     return (
       <>
