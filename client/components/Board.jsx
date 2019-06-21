@@ -27,17 +27,35 @@ class Board extends React.Component {
     return secondaryCard[0]
   }
 
+  handlePrimaryCardClick = () => {
+    this.setState({
+      secondaryCard: this.getRandomCard()
+    })
+    // set the state of secondary card to get random card
+  }
+
+  handleSecondaryCardClick = () => {
+    // set the primary card as this card
+    this.setState({
+      primaryCard: this.state.secondaryCard
+    })
+    // set the state of secondary card to get random card
+    this.setState({
+      secondaryCard: this.getRandomCard()
+    })
+  }
+
   render () {
     return (  
       <>
         <div className="container">
           <div className="leftcontainer">
-            <Card card={ this.state.primaryCard }/>
+            <Card onClick={this.handlePrimaryCardClick} card={ this.state.primaryCard }/>
           </div>
           <h2 className="or">OR</h2>
           <div className="space"></div>
           <div className="rightcontainer">
-            <Card card={ this.state.secondaryCard }/>
+            <Card onClick={this.handleSecondaryCardClick} card={ this.state.secondaryCard }/>
           </div>
         </div>
       </>
