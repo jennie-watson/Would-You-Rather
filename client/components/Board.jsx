@@ -6,14 +6,10 @@ const Board = () => {
     <>
       <div className="container">
         <div className="leftcontainer">
-          <p>left</p>
-          {/* <Card /> */}
         </div>
         <h2 className="or">OR</h2>
         <div className="space"></div>
         <div className="rightcontainer">
-          {/* <Card /> */}
-          <p>right</p>
         </div>
       </div>
     </>
