@@ -13,7 +13,7 @@ const cards = [
   },
   {
     id: 4,
-    description: 'Be in an outdoors jacuzzi in -40 weather.'
+    description: 'Be in a jacuzzi full of spiders.'
   },
   {
     id: 5,
@@ -45,7 +45,7 @@ const cards = [
   },
   {
     id: 12,
-    description: 'Live rent free in a flat next to Māngere Wastewater Treatment Plant.'
+    description: 'Live rent free with Ted Bundy as your neigh'
   },
   {
     id: 13,
@@ -61,7 +61,7 @@ const cards = [
   },
   {
     id: 16,
-    description: 'Go on a date with Dua Lipa.'
+    description: 'Hire Michael Jackson as your babysitter.'
   },
   {
     id: 17,
@@ -69,7 +69,7 @@ const cards = [
   },
   {
     id: 18,
-    description: "Sleep in PJ's made from skin-tight leather."
+    description: 'Sleep in skin-tight leather.'
   },
   {
     id: 19,
@@ -77,7 +77,7 @@ const cards = [
   },
   {
     id: 20,
-    description: 'Spend a weekend in Chernobyl.'
+    description: 'Spend a weekend in Guantanamo Bay.'
   },
   {
     id: 21,
@@ -93,7 +93,7 @@ const cards = [
   },
   {
     id: 24,
-    description: "Marry the world's richest 80 year old with no prenup."
+    description: 'Marry Hugh Hefner.'
   },
   {
     id: 25,
@@ -117,7 +117,7 @@ const cards = [
   },
   {
     id: 30,
-    description: 'Have sausages for fingers.'
+    description: 'Have gherkins for fingers.'
   },
   {
     id: 31,
@@ -140,7 +140,7 @@ const cards = [
   },
   {
     id: 36,
-    description: 'Be flipped in the red chair by Graham Norton.'
+    description: 'Only be able to use sandpaper as tissues.'
   },
   {
     id: 37,
@@ -176,7 +176,7 @@ const cards = [
   },
   {
     id: 45,
-    description: 'Have to always read aloud.'
+    description: 'Always be bitchy.'
   },
   {
     id: 46,
