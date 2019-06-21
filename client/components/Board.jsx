@@ -4,21 +4,40 @@ import Card from './Card'
 import data from '../../data/wur'
 
 class Board extends React.Component {
-  getCards () {
-    
-    cards = []
-    for (let i = 0; i < 2; i++) {
-      cardId = () => {data[Math.floor(Math.random()*data.length)]}
-      if(!cards.includes(cardId)){
-        cards.push(cardId)
-      }
+  constructor () {
+    super()
+    this.state = {
+      primaryCard: this.getRandomCard(),
+      secondaryCard: this.getSecondaryCard()
     }
   }
 
+  getRandomCard () {
+    return data[Math.floor(Math.random() * data.length)]
+  }
+
+  getSecondaryCard () {
+    const secondaryCard = []
+    for (let i = 0; secondaryCard.length < 1; i++) {
+      const cardId = this.getRandomCard()
+      if (!secondaryCard.includes(cardId)) {
+        secondaryCard.push(cardId)
+      }
+    }
+    return secondaryCard[0]
+  }
+
+  // getCards () {
+  //   const cards = []
+  //   for (let i = 0; cards.length < 2; i++) {
+  //     const cardId = this.getRandomCard()
+  //     if (!cards.includes(cardId)) {
+  //       cards.push(cardId)
+  //     }
+  //   }
+  // }
 
   render () {
-    card = 
-
     return (
       <>
       <div className="leftcontainer">
