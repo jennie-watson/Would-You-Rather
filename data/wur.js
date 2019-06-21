@@ -93,7 +93,7 @@ const cards = [
   },
   {
     id: 24,
-    description: "Be married to the world's wealthiest 80 year old with no prenuptial agreement."
+    description: "Marry the world's richest 80 year old with no prenup."
   },
   {
     id: 25,
